@@ -8,3 +8,5 @@
 <a href="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2" target="_blank"><img src="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2.svg" /></a>
 ### 3. Brain gcd.
 <a href="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p" target="_blank"><img src="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p.svg" /></a>
+### 4. Brain progression.
+<a href="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD" target="_blank"><img src="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD.svg" /></a>
