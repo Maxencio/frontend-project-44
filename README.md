@@ -31,7 +31,6 @@ Make sure you have installed Node.js version 13 or higher.
 
 
 To start the game type:
-
 `make brain-even`
 
 ### 1. Brain even.
@@ -39,7 +38,6 @@ To start the game type:
 
 
 To start the game type:
-
 `make brain-calc`
 
 ### 2. Brain calculator.
@@ -47,21 +45,18 @@ To start the game type:
 
 
 To start the game type:
-
 `make brain-gcd`
 
 ### 3. Brain gcd.
 <a href="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p" target="_blank"><img src="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p.svg" /></a>
 
 To start the game type:
-
 `make brain-progression`
 
 ### 4. Brain progression.
 <a href="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD" target="_blank"><img src="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD.svg" /></a>
 
 To start the game type:
-
 `make brain-prime`
 
 ### 5. Brain prime.
