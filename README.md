@@ -30,34 +30,31 @@ Make sure you have installed Node.js version 13 or higher.
 ## Game descriptions
 
 
+### 1. Brain even.
 To start the game type:
 `make brain-even`
-
-### 1. Brain even.
 <a href="https://asciinema.org/a/0stOa9iFN56MAcJzw9fmp53Gy" target="_blank"><img src="https://asciinema.org/a/0stOa9iFN56MAcJzw9fmp53Gy.svg" /></a>
 
 
+### 2. Brain calculator.
 To start the game type:
 `make brain-calc`
-
-### 2. Brain calculator.
 <a href="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2" target="_blank"><img src="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2.svg" /></a>
 
 
+### 3. Brain gcd.
 To start the game type:
 `make brain-gcd`
-
-### 3. Brain gcd.
 <a href="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p" target="_blank"><img src="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p.svg" /></a>
 
-To start the game type:
-`make brain-progression`
 
 ### 4. Brain progression.
+To start the game type:
+`make brain-progression`
 <a href="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD" target="_blank"><img src="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD.svg" /></a>
 
-To start the game type:
-`make brain-prime`
 
 ### 5. Brain prime.
+To start the game type:
+`make brain-prime`
 <a href="https://asciinema.org/a/SwT6UZ0okCoyIgl7IM4hLiZ8U" target="_blank"><img src="https://asciinema.org/a/SwT6UZ0okCoyIgl7IM4hLiZ8U.svg" /></a>
