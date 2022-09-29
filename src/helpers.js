@@ -3,4 +3,6 @@ const getRandomNumber = (min, max) =>
 
 const getRandomIndex = (numbers) => getRandomNumber(0, numbers.length);
 
-export { getRandomNumber, getRandomIndex };
+const getRandomInt = (max) => Math.floor(Math.random() * max);
+
+export { getRandomNumber, getRandomIndex, getRandomInt };

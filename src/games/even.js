@@ -1,33 +1,21 @@
-import readlineSync from 'readline-sync';
-// Определение функции приветствия
-export const greeting = () => {
-  console.log('Welcome to the Brain Games!');
-  const getName = () => readlineSync.question('May I have your name? ');
-  const userName = getName();
-  console.log(`Hello, ${userName}!`);
+import run from '../index.js';
+import { getRandomNumber } from '../helpers.js';
 
-  // Определение функции, дающее рандомное целое число
-  const getRandomInt = (max) => Math.floor(Math.random() * max);
-  // Определение функции игры на четность
+const description =
+  'Answer "yes" if the number is even, otherwise answer "no".';
+const minRange = 1;
+const maxRange = 100;
 
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+const isEven = (number) => number % 2 === 0;
 
-  for (let i = 0; i < 3; i += 1) {
-    const number = getRandomInt(100);
-    console.log('Question: ', number);
-    const answerUser = readlineSync.question('Your answer: ');
+const generateRound = () => {
+  const number = getRandomNumber(minRange, maxRange);
+  const expectedAnswer = isEven(number) ? 'yes' : 'no';
+  const question = String(number);
 
-    const checking1 = number % 2 === 0 && answerUser === 'yes';
-    const checking2 = number % 2 !== 0 && answerUser === 'no';
+  return [question, expectedAnswer];
+};
 
-    if (checking1 === true || checking2 === true) {
-      console.log('Correct!');
-    } else {
-      const opposite = answerUser === 'yes' ? 'no' : 'yes';
-      const errorMessage = `"${answerUser}" is wrong answer ;(. Correct answer was '${opposite}'. \n Let's try again, ${userName}!`;
-      console.log(`${errorMessage}`);
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
+export default () => {
+  run(description, generateRound);
 };
