@@ -5,7 +5,7 @@ import { getRandomNumber } from '../helpers.js';
 const description =
   'Answer "yes" if given number is prime. Otherwise answer "no".';
 const minRange = 1;
-const maxRange = 5;
+const maxRange = 100;
 
 const numberPrime = (numberThis) => {
   if (numberThis < 2) {
